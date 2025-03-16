@@ -1,0 +1,36 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form{
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#email, #password{
+    padding: 1em;
+    width: 300px;
+}
+
+#btnIngresar{
+    background: #332f2f;
+    padding: 1em;
+    width: 250px;
+    border-style: none;
+    color:ghostwhite ;
+}
+#btnIngresar:hover{
+    background: #232121;
+    cursor: pointer;
+}
